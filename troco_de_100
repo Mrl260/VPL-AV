@@ -31,7 +31,7 @@ total=100;
 }
 
 n1=a*total/50;
-total=total-(n1*50*a);
+total=total-(n1*50*a);        //valores a,b,c,d,e multiplicam a formula, caso a moeda nao seja digitada, continuara como 0, e a formula nao tem resultado alem de 0
 n2=b*total/20;
 total=total-(n2*20*b);
 n3=c*total/10;
