@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-
-
-
 int main()
 {
  int a=0, b=0, c=0, d=0, e=0, v[5], i, j;
@@ -25,7 +22,6 @@ total=100;
             case 5 : d=1;break;
             case 2 : e=1;break;
            }
-
 }
 
 n1=a*total/50;
@@ -39,23 +35,12 @@ total=total-(n4*5*d);
 n5=e*total/2;
 total=total-(n5*2*e);
 
-
     for(i=0; i<5; i++){
          switch(v[i]){
-            case 50 : printf("%ix%i ", 50, n1);;break;
-            case 20 : printf("%ix%i ", 20, n2);;break;
-            case 10 : printf("%ix%i ", 10, n3);;break;
-            case 5 : printf("%ix%i ", 5, n4);;break;
-            case 2 : printf("%ix%i ", 2, n5);;break;
+            case 50 : printf("%ix%i ", 50, n1+1);;break;
+            case 20 : printf("%ix%i ", 20, n2+1);;break;
+            case 10 : printf("%ix%i ", 10, n3+1);;break;
+            case 5 : printf("%ix%i ", 5, n4+1);;break;
+            case 2 : printf("%ix%i ", 2, n5+1);;break;
            }}
-
-
-
-
-
-
-
-
-
 }
-
