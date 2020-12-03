@@ -3,7 +3,7 @@
 //codigo para otimizar troco de 100
 //valores 'n' indicam a quantidade de notas pra cada moeda
 //a,b,c,d,e sao valores que ativam certas partes do codigo
-//se a moeda relacionada for digitada, o programa troca 0 por 1, entao a formula utilizada no final, junto com printf é calculadao
+//se a moeda relacionada for digitada, o programa troca 0 por 1, entao a formula utilizada no final, junto com printf é calculado
 //caso contrario, se nao for digitado a moeda, a letra referente a moeda continua com 0 e a formula é "ignorada"
 
 int main()
