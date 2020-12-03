@@ -43,7 +43,7 @@ total=total-(n5*2*e);
 
     for(i=0; i<5; i++){
          switch(v[i]){
-            case 50 : printf("%ix%i ", 50, n1+1);;break;
+            case 50 : printf("%ix%i ", 50, n1+1);;break;       //printf somam 1 prq antes esse valor foi descontado do total, 100
             case 20 : printf("%ix%i ", 20, n2+1);;break;
             case 10 : printf("%ix%i ", 10, n3+1);;break;
             case 5 : printf("%ix%i ", 5, n4+1);;break;
