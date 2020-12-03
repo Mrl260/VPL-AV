@@ -20,7 +20,7 @@ int main()
                 break;}}
 total=100;
     for(i=0; i<5; i++){
-        total=total-v[i];
+        total=total-v[i];           //descontado cada moeda do total, 100, e necessario utilizar todas as moedas, entao, uma vez pelo menos sera utilizada
          switch(v[i]){
             case 50 : a=1;break;
             case 20 : b=1;break;
